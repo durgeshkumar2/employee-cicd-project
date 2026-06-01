@@ -1,0 +1,6 @@
+services:
+  employee-app:
+    build: ./app
+    container_name: employee-container
+    ports:
+      - "3001:3000"
